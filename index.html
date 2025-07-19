@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dttttttttttt Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            margin: auto;
+        }
+        header {
+            width: 100%;
+            background-color: #ffeb3b;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .hero {
+            background-image: url('https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .about, .features, .testimonials, .gallery, .cta, .contact {
+            padding: 20px;
+            text-align: center;
+        }
+        .about p, .features p, .testimonials p, .cta p, .contact p {
+            font-family: 'Noto Serif', serif;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .features, .testimonials {
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .features .grid, .gallery .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .features .grid div, .gallery .grid img {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cta {
+            background-color: #ff9800;
+            border-radius: 10px;
+            margin: 10px 0;
+            color: white;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            .features .grid, .gallery .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>dttttttttttt Blog</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h1>Welcome to dttttttttttt</h1>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>dttttttttttt is a vibrant retail space where every product tells a story. From handcrafted goods to curated collections, we bring an eclectic mix of quality and creativity to our customers. Our mission is to provide a unique shopping experience that delights and inspires. With a passion for excellence and a commitment to sustainability, we are redefining retail for the modern era.</p>
+        <p>Our store is more than just a place to shop; it's a community hub where ideas and inspiration flow freely. We believe in the power of connection and strive to create an environment where people feel valued and inspired. Whether you're browsing for yourself or looking for the perfect gift, dttttttttttt offers a diverse selection of items that cater to all tastes and preferences.</p>
+    </section>
+
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="grid">
+            <div>
+                <i class="fas fa-shipping-fast"></i>
+                <p>Fast & Reliable Shipping</p>
+            </div>
+            <div>
+                <i class="fas fa-leaf"></i>
+                <p>Sustainable Products</p>
+            </div>
+            <div>
+                <i class="fas fa-award"></i>
+                <p>Quality Assured</p>
+            </div>
+            <div>
+                <i class="fas fa-headset"></i>
+                <p>24/7 Customer Support</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <p>"dttttttttttt has transformed my shopping experience! The quality and variety are unmatched."</p>
+        <p>"A store that truly cares about its customers. I always find something unique and special here."</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Our Gallery</h2>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1581291518835-4c5a4cd11e51" alt="Product 1">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Product 2">
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Contact Us</h2>
+        <p>Interested in learning more? Visit us at our store or get in touch online!</p>
+        <button>Contact Us</button>
+    </section>
+</main>
+
+<footer>
+    <p>© 2023 dttttttttttt. All rights reserved.</p>
+    <p>Follow us:</p>
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter-square"></i>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dttttttttttt Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            margin: auto;
+        }
+        header {
+            width: 100%;
+            background-color: #8bc34a;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .hero {
+            background-image: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .services, .testimonials, .gallery, .cta, .contact {
+            padding: 20px;
+            text-align: center;
+        }
+        .services p, .testimonials p, .cta p, .contact p {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .services, .testimonials {
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .services .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .services .grid div, .gallery .grid img {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cta {
+            background-color: #03a9f4;
+            border-radius: 10px;
+            margin: 10px 0;
+            color: white;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>dttttttttttt Services</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h1>Our Services</h1>
+    </section>
+
+    <section class="services">
+        <h2>What We Offer</h2>
+        <div class="grid">
+            <div>
+                <i class="fas fa-gift"></i>
+                <p>Personalized Gift Wrapping</p>
+            </div>
+            <div>
+                <i class="fas fa-truck"></i>
+                <p>Home Delivery Service</p>
+            </div>
+            <div>
+                <i class="fas fa-handshake"></i>
+                <p>Custom Order Consultation</p>
+            </div>
+            <div>
+                <i class="fas fa-star"></i>
+                <p>Exclusive Member Discounts</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Customer Reviews</h2>
+        <p>"The personalized service at dttttttttttt is truly outstanding. They go above and beyond."</p>
+        <p>"A wonderful selection of services that cater to every need. Highly recommended!"</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Service Highlights</h2>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1612831669751-5e0d43b6c517" alt="Service 1">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Service 2">
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Book Your Service</h2>
+        <p>Ready to experience our top-notch services? Contact us today to schedule your appointment!</p>
+        <button>Book Now</button>
+    </section>
+</main>
+
+<footer>
+    <p>© 2023 dttttttttttt. All rights reserved.</p>
+    <p>Follow us:</p>
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter-square"></i>
+</footer>
+
+</body>
+</html>
